@@ -310,3 +310,19 @@ footer span {
   .letter { padding: 17px; }
   .primary-button, .secondary-button { width: 100%; }
 }
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  max-width: 600px;
+  margin: 24px auto;
+  padding: 0 12px;
+}
+
+.galeria img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
