@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f5">
+  <meta name="description" content="Uma surpresa feita com carinho para Flagna.">
+  <title>Para Flagna ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero card">
+      <div class="eyebrow">feito com carinho, especialmente para você</div>
+      <div class="big-heart" aria-hidden="true">♥</div>
+      <p class="hello">Oi, Flagna!</p>
+      <h1>Tenho uma surpresa<br><span>para você...</span></h1>
+      <p class="intro">Preparei esse cantinho com muito carinho. Cada detalhe aqui é uma pequena forma de dizer o quanto você é especial para mim.</p>
+      <button class="primary-button" id="openLetter">Abrir minha surpresa <span>♡</span></button>
+      <p class="hint">psiu... toca no botão 💗</p>
+    </section>
+
+    <section class="letter-section card hidden" id="letterSection">
+      <div class="section-icon">💌</div>
+      <p class="eyebrow">uma cartinha para você</p>
+      <h2>Flagna, meu amor</h2>
+      <div class="letter">
+        <p>Às vezes, é difícil encontrar as palavras certas para explicar o quanto alguém é importante. Mas hoje eu quis tentar.</p>
+        <p>Quero que você saiba que sua presença deixa meus dias mais bonitos. Seu jeito, seu sorriso e até os pequenos detalhes que talvez você nem perceba fazem você ser alguém muito especial para mim.</p>
+        <p>Não preciso de uma ocasião perfeita para lembrar o quanto gosto de você. Só queria criar um momento simples, mas cheio de carinho, para te fazer sorrir.</p>
+        <p>Que a gente continue colecionando momentos, risadas, conversas e lembranças bonitas. E que nunca faltem motivos para cuidar um do outro.</p>
+        <p class="signature">Com todo o meu carinho,<br><strong>alguém que tem muita sorte por ter você. ❤️</strong></p>
+      </div>
+      <button class="secondary-button" id="reasonsButton">Descobrir alguns motivos 💕</button>
+    </section>
+
+    <section class="reasons-section card hidden" id="reasonsSection">
+      <p class="eyebrow">pequenas coisas, sentimentos enormes</p>
+      <h2>Alguns motivos pelos quais você é especial</h2>
+      <p class="section-subtitle">Toque nos cartões para revelar cada mensagem.</p>
+      <div class="reasons-grid">
+        <button class="reason" data-message="Porque seu jeito tem algo único que faz meu coração sorrir.">♡<span>Seu jeitinho</span></button>
+        <button class="reason" data-message="Porque até um dia comum pode ficar especial quando compartilho ele com você.">☀<span>Sua presença</span></button>
+        <button class="reason" data-message="Porque seu sorriso é daqueles detalhes que deixam tudo mais bonito.">☺<span>Seu sorriso</span></button>
+        <button class="reason" data-message="Porque gosto de conhecer cada pedacinho de quem você é.">✿<span>Quem você é</span></button>
+      </div>
+      <p class="reason-message" id="reasonMessage" aria-live="polite">Escolha um cartão, meu bem. 💗</p>
+      <button class="primary-button" id="finalButton">Uma última coisinha... ✨</button>
+    </section>
+
+    <section class="final-section card hidden" id="finalSection">
+      <div class="final-stars">✦　♡　✦</div>
+      <div class="big-heart">♥</div>
+      <h2>Você é muito especial, Flagna.</h2>
+      <p>Esse site é simples, mas foi feito pensando em você. Espero que ele tenha conseguido colocar um sorriso no seu rosto, porque esse era o meu objetivo desde o começo.</p>
+      <p class="final-line">Gosto muito de você. ❤️</p>
+      <button class="secondary-button" id="replayButton">Ver novamente ↻</button>
+    </section>
+
+    <footer>feito com carinho e um pouquinho de código <span>♡</span></footer>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
